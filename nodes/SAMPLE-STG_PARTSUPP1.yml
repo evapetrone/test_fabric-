@@ -1,0 +1,101 @@
+fileVersion: 1
+id: 24d826f5-fe7a-4f92-96f5-acbd1a03cbfe
+name: STG_PARTSUPP1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 70713356-af0d-4e8e-915c-094ffbe5e2a8
+          stepCounter: 24d826f5-fe7a-4f92-96f5-acbd1a03cbfe
+        config: {}
+        dataType: DECIMAL(38,6)
+        defaultValue: ""
+        description: ""
+        name: PS_PARTKEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d78ff34f-4e37-4378-968c-e315338eccb5
+          stepCounter: 24d826f5-fe7a-4f92-96f5-acbd1a03cbfe
+        config: {}
+        dataType: DECIMAL(38,6)
+        defaultValue: ""
+        description: ""
+        name: PS_SUPPKEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef145f65-1c21-4e57-844e-6d04ca9779e5
+          stepCounter: 24d826f5-fe7a-4f92-96f5-acbd1a03cbfe
+        config: {}
+        dataType: DECIMAL(38,6)
+        defaultValue: ""
+        description: ""
+        name: PS_AVAILQTY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6250e185-ec9e-4376-99d3-884777a7dabb
+          stepCounter: 24d826f5-fe7a-4f92-96f5-acbd1a03cbfe
+        config: {}
+        dataType: DECIMAL(38,6)
+        defaultValue: ""
+        description: ""
+        name: PS_SUPPLYCOST
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4d54f52d-e391-4697-acce-5a2ffa926f31
+          stepCounter: 24d826f5-fe7a-4f92-96f5-acbd1a03cbfe
+        config: {}
+        dataType: VARCHAR(8000)
+        defaultValue: ""
+        description: ""
+        name: PS_COMMENT
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: STG_PARTSUPP1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
